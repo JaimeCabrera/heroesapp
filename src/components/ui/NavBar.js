@@ -8,20 +8,22 @@ export const NavBar = () => {
         <Link className="navbar-brand" to="/">
           HeroesApp
         </Link>
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav me-auto  mb-lg-0">
           <li className="nav-item">
-            <NavLink className="nav-link" to="/">
-              Home
+            <NavLink className="nav-link" to="/marvel">
+              Marvel
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/login">
-              Login
+            <NavLink className="nav-link" to="/dc">
+              DC
             </NavLink>
           </li>
         </ul>
         <div className="d-flex">
-          <button className="btn btn-outline-success">Logout</button>
+          <NavLink to="/login" className="btn btn-outline-success">
+            Logout
+          </NavLink>
         </div>
       </div>
     </nav>
