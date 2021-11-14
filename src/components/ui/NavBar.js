@@ -1,7 +1,18 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useContext } from "react";
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../auth/AuthContext";
+import { types } from "../../types/types";
 
 export const NavBar = () => {
+
+  const { user, dispatch } = useContext(AuthContext)
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    navigate('/login', { replace: true })
+    dispatch({ type: types.logout })
+  }
+
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container-fluid">
@@ -26,9 +37,10 @@ export const NavBar = () => {
           </li>
         </ul>
         <div className="d-flex">
-          <NavLink to="/login" className="btn btn-outline-success">
+          <span className="nav-item nav-link text-primary">{user.name}</span>
+          <button className="btn btn-outline-success" onClick={handleLogout}>
             Logout
-          </NavLink>
+          </button>
         </div>
       </div>
     </nav>
