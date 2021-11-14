@@ -19,6 +19,11 @@ export const NavBar = () => {
               DC
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/search">
+              Search
+            </NavLink>
+          </li>
         </ul>
         <div className="d-flex">
           <NavLink to="/login" className="btn btn-outline-success">

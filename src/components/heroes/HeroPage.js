@@ -15,7 +15,7 @@ export const HeroPage = () => {
   }
   const handleReturn = () => {
     // si existe navegacion retorna al anteriro caso contrario a la pagina principal
-    if (navigate.length <= 2) {
+    if (navigate.length <= 1) {
       navigate("/");
     } else {
       navigate(-1);
