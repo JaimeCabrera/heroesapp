@@ -24,15 +24,15 @@ export const HeroPage = () => {
   const { superhero, publisher, alter_ego, first_appearance, characters } =
     hero;
   return (
-    <div className="row mt-5 animate__animated animate__fadeIn">
-      <div className="col-sm-6 col-md-4">
+    <div className="row mt-5 animate__animated animate__fadeIn shadow-lg">
+      <div className="col-md-3 ">
         <img
           src={`../assets/heroes/${heroeId}.jpg`}
           alt={superhero}
-          className="img-thumbnail animate__animated animate__fadeInLeft"
+          className="img-thumbnail img-fluid animate__animated animate__fadeInLeft"
         />
       </div>
-      <div className="col-sm-6 col-md-8">
+      <div className="col-sm-6 col-md-9">
         <h3>{superhero}</h3>
         <ul className="list-group list-group-flush">
           <li className="list-group-item">

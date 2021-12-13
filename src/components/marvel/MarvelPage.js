@@ -4,7 +4,7 @@ import { HeroeList } from "../heroes/HeroeList";
 export const MarvelPage = () => {
   return (
     <div>
-      <h1>Marvel page</h1>
+      <h1>Marvel Heroes</h1>
       <HeroeList publisher="Marvel Comics" />
     </div>
   );

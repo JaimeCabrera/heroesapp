@@ -14,8 +14,8 @@ export const NavBar = () => {
   }
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top shadow-lg">
+      <div className="container">
         <Link className="navbar-brand" to="/">
           HeroesApp
         </Link>
@@ -38,7 +38,7 @@ export const NavBar = () => {
         </ul>
         <div className="d-flex">
           <span className="nav-item nav-link text-primary">{user.name}</span>
-          <button className="btn btn-outline-success" onClick={handleLogout}>
+          <button className="btn btn-light" onClick={handleLogout}>
             Logout
           </button>
         </div>
