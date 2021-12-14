@@ -5,7 +5,6 @@ import { Navigate, useLocation } from 'react-router-dom'
 export const PrivateRouter = ({ isAuth, element, ...rest }) => {
   const location = useLocation();
   const { pathname } = location
-  console.log(pathname)
 
   // guardar el pathname o ruta 
   localStorage.setItem('lastPath', pathname)

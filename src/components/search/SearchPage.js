@@ -25,7 +25,7 @@ export const SearchPage = () => {
   return (
     <div>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-6">
           <h4>Search From</h4>
           <hr />
           <form className="form-horizontal" onSubmit={handleSearch}>
@@ -48,7 +48,7 @@ export const SearchPage = () => {
             </div>
           </form>
         </div>
-        <div className="col-md-8 mt-5">
+        <div className="col-md-6 mt-5">
           <h4>Results</h4>
           <hr />
           {q === null && <div className="alert alert-info">Search a hero</div>}

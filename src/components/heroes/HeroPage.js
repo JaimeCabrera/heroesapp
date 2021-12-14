@@ -1,6 +1,9 @@
 import React, { useMemo } from "react";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
+import { heroePath } from "../../helpers/heroImg";
 import { getHeroById } from "../../selectors/getHeroById";
+
+
 
 export const HeroPage = () => {
   const navigate = useNavigate();
@@ -23,11 +26,14 @@ export const HeroPage = () => {
   };
   const { superhero, publisher, alter_ego, first_appearance, characters } =
     hero;
+  // console.log('path', heroPath());
+
   return (
-    <div className="row mt-5 animate__animated animate__fadeIn shadow-lg">
+    <div className="row mt-5 p-4 animate__animated animate__fadeIn shadow-lg">
       <div className="col-md-3 ">
         <img
-          src={`../assets/heroes/${heroeId}.jpg`}
+          // src={`../assets/heroes/${heroeId}.jpg`}
+          src={heroePath(`./${heroeId}.jpg`).default}
           alt={superhero}
           className="img-thumbnail img-fluid animate__animated animate__fadeInLeft"
         />

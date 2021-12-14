@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+const heroePath = require.context('../../assets/heroes')
+
 export const HeroCard = ({
   id,
   superhero,
@@ -11,13 +14,13 @@ export const HeroCard = ({
 }) => {
   return (
     <>
-      <div class="card animate__animated animate__fadeIn m-2 bg-opacity-75">
+      <div className="card animate__animated animate__fadeIn m-2 bg-opacity-75" style={{ maxWidth: 340 }}>
         <img
-          src={`./assets/heroes/${id}.jpg`}
-          className="card-img-top"
+          src={heroePath(`./${id}.jpg`).default}
+          className="card-img-top img-fluid img-thumbnail"
           alt={superhero}
         />
-        <div class="card-body">
+        <div className="card-body">
           <h5 className="card-title">{superhero}</h5>
           <p className="card-text">{alter_ego}</p>
           {alter_ego !== characters && (
