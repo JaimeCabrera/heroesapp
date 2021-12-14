@@ -14,11 +14,12 @@ export const LoginPage = () => {
   const handleLogin = () => {
     dispatch({
       type: types.login,
-      payload: { name: 'Jaime' }
+      payload: { name: 'Jhon Doe' }
     })
     navigate(lastPath, { replace: true });
   };
 
+  const email = "admin@email.com"
   return (
     <div className="container">
       <div className="row mt-5 ">
@@ -29,6 +30,7 @@ export const LoginPage = () => {
               <div className="mb-3">
                 <input
                   type="text"
+                  value={email}
                   className="form-control"
                   placeholder="email"
                 />
