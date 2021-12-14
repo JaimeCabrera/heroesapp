@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.js": "/JaimeCabrera/heroesapp/static/js/main.22e33c84.chunk.js",
+    "main.js.map": "/JaimeCabrera/heroesapp/static/js/main.22e33c84.chunk.js.map",
+    "runtime-main.js": "/JaimeCabrera/heroesapp/static/js/runtime-main.20699804.js",
+    "runtime-main.js.map": "/JaimeCabrera/heroesapp/static/js/runtime-main.20699804.js.map",
+    "static/css/2.84112ba1.chunk.css": "/JaimeCabrera/heroesapp/static/css/2.84112ba1.chunk.css",
+    "static/js/2.82b67135.chunk.js": "/JaimeCabrera/heroesapp/static/js/2.82b67135.chunk.js",
+    "static/js/2.82b67135.chunk.js.map": "/JaimeCabrera/heroesapp/static/js/2.82b67135.chunk.js.map",
+    "index.html": "/JaimeCabrera/heroesapp/index.html",
+    "static/css/2.84112ba1.chunk.css.map": "/JaimeCabrera/heroesapp/static/css/2.84112ba1.chunk.css.map",
+    "static/js/2.82b67135.chunk.js.LICENSE.txt": "/JaimeCabrera/heroesapp/static/js/2.82b67135.chunk.js.LICENSE.txt",
+    "static/media/dc-arrow.jpg": "/JaimeCabrera/heroesapp/static/media/dc-arrow.15b27bc2.jpg",
+    "static/media/dc-batman.jpg": "/JaimeCabrera/heroesapp/static/media/dc-batman.ab9eadc3.jpg",
+    "static/media/dc-black.jpg": "/JaimeCabrera/heroesapp/static/media/dc-black.3747c663.jpg",
+    "static/media/dc-blue.jpg": "/JaimeCabrera/heroesapp/static/media/dc-blue.cc8169a3.jpg",
+    "static/media/dc-flash.jpg": "/JaimeCabrera/heroesapp/static/media/dc-flash.b3922f25.jpg",
+    "static/media/dc-green.jpg": "/JaimeCabrera/heroesapp/static/media/dc-green.01c54ee1.jpg",
+    "static/media/dc-martian.jpg": "/JaimeCabrera/heroesapp/static/media/dc-martian.78565f7d.jpg",
+    "static/media/dc-robin.jpg": "/JaimeCabrera/heroesapp/static/media/dc-robin.ea4afe99.jpg",
+    "static/media/dc-superman.jpg": "/JaimeCabrera/heroesapp/static/media/dc-superman.e9391474.jpg",
+    "static/media/dc-wonder.jpg": "/JaimeCabrera/heroesapp/static/media/dc-wonder.970ba2d6.jpg",
+    "static/media/marvel-captain.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-captain.d2c7774d.jpg",
+    "static/media/marvel-cyclops.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-cyclops.f1442408.jpg",
+    "static/media/marvel-daredevil.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-daredevil.2f4f1a57.jpg",
+    "static/media/marvel-hawkeye.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-hawkeye.1f78e874.jpg",
+    "static/media/marvel-hulk.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-hulk.d1af5fe5.jpg",
+    "static/media/marvel-iron.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-iron.b394df11.jpg",
+    "static/media/marvel-silver.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-silver.1d43a08b.jpg",
+    "static/media/marvel-spider.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-spider.054016b4.jpg",
+    "static/media/marvel-thor.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-thor.c63e651c.jpg",
+    "static/media/marvel-wolverine.jpg": "/JaimeCabrera/heroesapp/static/media/marvel-wolverine.ee676488.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20699804.js",
+    "static/css/2.84112ba1.chunk.css",
+    "static/js/2.82b67135.chunk.js",
+    "static/js/main.22e33c84.chunk.js"
+  ]
+}
